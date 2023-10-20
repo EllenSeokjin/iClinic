@@ -41,19 +41,19 @@ font-family: 'Catamaran', sans-serif;
 }
 
 .face{
-  background-image: url(/clinic/images/face.jpg);
+  background-image: url(face.jpg);
 }
 
 .twitter{
-  background-image: url(/clinic/images/tt.jpg);
+  background-image: url(tt.jpg);
 }
 
 .instagram{
-  background-image: url(/clinic/images/ig.jpg);
+  background-image: url(ig.jpg);
 }
 
 .linkedin{
-  background-image: url(/clinic/images/in.jpg);
+  background-image: url(in.jpg);
 }
 
 /* head section*/
@@ -64,7 +64,7 @@ height: 500px;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
-background-image: url(/clinic/images/petr-magera-HuWm7malJ18-unsplash.jpg);
+background-image: url(petr-magera-HuWm7malJ18-unsplash.jpg);
 }
 
 .nav-div{
