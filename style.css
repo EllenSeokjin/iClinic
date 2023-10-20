@@ -1,0 +1,321 @@
+
+::-webkit-scrollbar-thumb{
+  background: whitesmoke;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+body{
+font-family: 'Catamaran', sans-serif;
+}
+
+.above-div{
+  height: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.contact{
+  display: flex;
+  right: 85px;
+  position: absolute;
+}
+.links2{
+  display: flex;
+  right: 17px;
+  position: absolute;
+}
+
+.face, .linkedin, .instagram, .twitter
+{
+  background-position: center;
+  background-size: cover;
+  border-radius: 100px;
+  width: 15px;
+  height: 15px;
+  border: none;
+}
+
+.face{
+  background-image: url(/clinic/images/face.jpg);
+}
+
+.twitter{
+  background-image: url(/clinic/images/tt.jpg);
+}
+
+.instagram{
+  background-image: url(/clinic/images/ig.jpg);
+}
+
+.linkedin{
+  background-image: url(/clinic/images/in.jpg);
+}
+
+/* head section*/
+
+.head-section{
+width: 100%;
+height: 500px;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url(/clinic/images/petr-magera-HuWm7malJ18-unsplash.jpg);
+}
+
+.nav-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.nav{
+  opacity: 0.8;
+  width: 80%;
+  height: 40px;
+  background-color: rgb(67, 67, 241);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.logo{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.links{
+  display: flex;
+  position: absolute;
+  right: 160px;
+}
+
+li{
+  list-style-type: none;
+}
+
+#a{ color: white;
+font-size: 16px;
+font-family: 'Catamaran', sans-serif;
+}
+
+a{
+  margin: 10px;
+  text-decoration: none;
+}
+
+.blocos{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  top: 300px;
+}
+
+.bloco1{
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+
+}
+
+.bloco2{
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+
+}
+
+.bloco3{
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+
+}
+
+
+/*footer*/
+
+.footer{
+  width: 100%;
+  height: 200px;
+  background-color: rgb(67, 67, 241);
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text{
+  display: none;
+}
+
+
+/*plans prizes*/
+.blocos{
+  z-index: 9;
+}
+
+.bloco1, .bloco2, .bloco3{
+  box-shadow: 3px 0 3px rgb(104, 116, 175);
+}
+
+.bloco2{
+  color: antiquewhite;
+  background-color: rgb(67, 67, 241);
+}
+
+.icon{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.icon-image{
+  border-radius: 100%;
+  width: 60px;
+  margin: 14px;
+}
+
+.bloco-titulo{
+  font-family: 'Catamaran', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 8px;
+}
+
+.bloco-description{
+  line-height: 18px;
+  margin: 8px;
+  font-size: 17px;
+}
+
+.bloco-btn{
+  background-color: rgb(67, 67, 241);
+  padding: 8px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+ margin-left: 30%;
+}
+
+.bloco-btn:hover{
+  box-shadow: 0 0 10px rgb(6, 39, 202);
+}
+
+#aa{
+  color: whitesmoke;
+}
+#aaa{
+  color: black;
+}
+
+.bloco2-btn{
+  background-color: whitesmoke;
+  padding: 8px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+ margin-left: 30%;
+}
+.bloco2-btn:hover{
+  box-shadow: 0 0 10px white;
+}
+
+/*home*/
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(67, 67, 241);
+  width: 100%;
+  height: 500px;
+}
+
+@media only screen and (max-width: 900px) {
+ .nav{
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  margin: auto;
+ }
+
+ .logo{
+width: 0;
+ }
+
+ .links{
+ right: 0;
+ position: relative;
+ }
+
+ 
+ #a{
+  margin: 5px;
+ }
+
+
+.nav-div{
+  height: 40px;
+}
+ .blocos{
+  flex-direction: column;
+  align-items: center;
+  top: 240px;
+  z-index: 0;
+  margin: 10px;
+  justify-content: center;
+ }
+
+.bloco1, .bloco2, .bloco3{
+  box-shadow: none;
+  width: 60%;
+  justify-content: center;
+}
+
+.bloco2{
+  background-color: white;
+  color: black;
+}
+
+.head-section{
+  height: 300px;
+}
+
+.bloco-btn{
+  margin: 4px;
+}
+
+.bloco-titulo{
+  font-size: 18px;
+}
+.footer{
+  position: relative;
+  top: 820px;
+  height: 200px;
+  opacity: 0.7;
+}
+
+.footer-text{
+  font-family:  'Catamaran', sans-serif;
+  color: black;
+  font-size: 16px;
+  margin: 9px;
+  display: flex;
+}
+
+}
